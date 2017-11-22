@@ -10,7 +10,7 @@ def getColumnCount(database, table, column):
     results = []
     for joe in process:
         results.append(joe)
-    with open('results.txt', 'w') as resultsFile:
+    with open('resultsForColumnCount.txt', 'w') as resultsFile:
         counter = 0
         counter2 = 0
         dummie = 0
