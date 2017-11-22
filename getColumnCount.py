@@ -7,3 +7,10 @@ def getColumnCount(database, table, column):
         hql.write("SELECT COUNT("+column+") FROM "+table+";"+"\n")
     hql.close()
     os.system("cat gettingColumnCount.hql")
+
+
+dbName = "tpcds_parquet"
+tableName = "et_customer"
+columnName = "c_customer_id"
+
+getColumnCount(dbName, tableName, columnName)
