@@ -1,0 +1,1 @@
+use tpcds_parquet;SELECT * FROM et_promotion;
